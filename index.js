@@ -56,7 +56,7 @@ app.get("/hello",(req,res)=>{
 
 
 app.listen(port,()=>{
-    console.log(`server running at http://localhost:${port}`)
+    console.log(`server running at https://hotel-management-system-frontend-jade.vercel.app/:${port}`)
 })
 
 //database handler
